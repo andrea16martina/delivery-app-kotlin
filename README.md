@@ -43,3 +43,20 @@ Make sure to:
 - Have the latest version of Android Studio installed.
 ---
 
+---
+
+## 👤 Author
+
+**Andrea Martina**  
+📫 [LinkedIn](https://www.linkedin.com/in/andmar-7137a41aa)  
+🌐 [GitHub](https://github.com/andrea16martina)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
+
+---
+

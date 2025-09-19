@@ -1,62 +1,54 @@
-# 🚚 Delivery App – Kotlin
+# Delivery App – Kotlin
 
-**Native Android application** for real-time food delivery and dynamic restaurant browsing. Built using Kotlin and Jetpack Compose.
+Native Android application for real-time food delivery and restaurant browsing. Built with Kotlin and Jetpack Compose.
 
----
+## Overview
 
-## 📱 Overview
+The app provides an intuitive UI for exploring the 20 nearest restaurants, each displayed as a card with image, description, and action buttons.
 
-This project features an intuitive UI for browsing the 20 nearest restaurants, each displayed as a rich card with image, description, and action buttons.
+Key features:
 
-Key screens include:
+- Restaurant List – view nearby restaurants with dynamic data
+- Restaurant Detail – review menu items and finalize orders
+- User Profile – manage account information
+- Live Map Tracking – track order location in real time using MapBox
 
-- 📍 **Restaurant List** – View top nearby restaurants with dynamic data.
-- 🧾 **Restaurant Detail** – Review menu and finalize orders.
-- 🧑‍💼 **User Profile** – Manage account information.
-- 🗺️ **Live Map Tracking** – Follow order location in real time using **MapBox**, updated every 5 seconds.
+## Tech Stack
 
----
+- Kotlin  
+- Jetpack Compose  
+- MapBox SDK (live tracking)  
+- LiveData & Coroutines  
+- Navigation Component  
+- Android Architecture Components (ViewModel, Repository pattern)
 
-## 🛠️ Tech Stack
 
-- 💻 Kotlin
-- 🎨 Jetpack Compose
-- 🗺️ MapBox SDK (live tracking)
-- 🔄 LiveData & Coroutines
-- 🧭 Navigation Component
-- 📦 Android Architecture Components (ViewModel, Repository pattern)
+## Local setup
 
----
+Requirements: Android Studio (latest), Kotlin, Gradle
 
-## 🚀 Getting Started
+Clone the repository:
 
 ```bash
-# Clone the repository
 git clone https://github.com/andrea16martina/delivery-app-kotlin.git
 cd delivery-app-kotlin
-
-# Open in Android Studio and run on emulator or physical device
 ```
+
+Open the project in Android Studio and run on an emulator or physical device.
+
 Make sure to:
+- Obtain a MapBox access token and configure it in local.properties or AndroidManifest.xml
+-  Use the latest Android Studio version
 
-- Obtain a MapBox access token and set it up in `local.properties` or directly in your `AndroidManifest.xml`.
-- Have the latest version of Android Studio installed.
----
+## Suggested next steps
 
----
+-Add unit and UI tests for critical features
+- Implement offline caching for restaurant data
+- Add notifications for order updates
+- Optimize MapBox integration for battery efficiency
 
-## 👤 Author
+## Contact & License
 
-**Andrea Martina**  
-📫 [LinkedIn](https://www.linkedin.com/in/andmar-7137a41aa)  
-🌐 [GitHub](https://github.com/andrea16martina)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.  
-See the [LICENSE](./LICENSE) file for details.
-
----
+Author: [Andrea Martina](https://andreamartina.vercel.app) 
+License: MIT
 
